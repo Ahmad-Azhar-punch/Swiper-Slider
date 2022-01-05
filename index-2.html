@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+    <title></title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        background-color: #212121;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 390px;
+        background-color: #fff;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    
+    .picture {
+        width: 450px;
+        height: 320px;
+        overflow: hidden;
+    }
+    
+    .picture img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    
+    .detail {
+        padding: 25px 20px;
+        font-weight: 600;
+        /* text-align: center; */
+    }
+    
+    .detail h3 {
+        margin: 0;
+        font-size: 20px;
+    }
+    
+    .detail span {
+        display: block;
+        font-size: 16px;
+        color: #1E1E1E;
+        opacity: 50%;
+    }
+    
+    .detail {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: "nme ." "desgntn btttn";
+        align-items: center;
+    }
+    
+    a.bttn-link {
+        padding: .6em;
+        background: #FF3C78;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 36.46px;
+    }
+    
+    p.si--bttn {
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .bttn {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    h3 {
+        grid-area: nme;
+    }
+    
+    a.bttn-link {
+        grid-area: btttn
+    }
+    
+    span {
+        grid-area: desgntn;
+    }
+    
+    .picture {
+        width: auto;
+        height: auto;
+    }
+    
+    .picture img {
+        object-position: top;
+    }
+    
+    .swiper-slide {
+        width: 25vw;
+    }
+    
+    .swiper-slide.swiper-slide-active {
+        width: 32vw;
+    }
+</style>
+
+<body>
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="/Assets/shutterstock_1851504196.png" alt="1">
+                </div>
+                <div class="detail">
+                    <h3>Andrew J.</h3>
+                    <a class="bttn-link" href="#">
+                        <div class="bttn">
+                            <p class="si--bttn">Send Invite</p>
+                            <img class="si--img" src="/Assets/Group 549.svg" alt="arrow">
+                        </div>
+                    </a>
+                    <span>Top Rated UI/UX Designer</span>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="/Assets/shutterstock_1851504196.png" alt="2">
+                </div>
+                <div class="detail">
+                    <h3>Andrew J.</h3>
+                    <a class="bttn-link" href="#">
+                        <div class="bttn">
+                            <p class="si--bttn">Send Invite</p>
+                            <img class="si--img" src="/Assets/Group 549.svg" alt="arrow">
+                        </div>
+                    </a>
+                    <span>Top Rated UI/UX Designer</span>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="/Assets/shutterstock_1851504196.png" alt="3">
+                </div>
+                <div class="detail">
+                    <h3>Andrew J.</h3>
+                    <a class="bttn-link" href="#">
+                        <div class="bttn">
+                            <p class="si--bttn">Send Invite</p>
+                            <img class="si--img" src="/Assets/Group 549.svg" alt="arrow">
+                        </div>
+                    </a>
+                    <span>Top Rated UI/UX Designer</span>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="/Assets/shutterstock_1851504196.png" alt="4">
+                </div>
+                <div class="detail">
+                    <h3>Andrew J.</h3>
+                    <a class="bttn-link" href="#">
+                        <div class="bttn">
+                            <p class="si--bttn">Send Invite</p>
+                            <img class="si--img" src="/Assets/Group 549.svg" alt="arrow">
+                        </div>
+                    </a>
+                    <span>Top Rated UI/UX Designer</span>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="picture">
+                    <img src="/Assets/shutterstock_1851504196.png" alt="5">
+                </div>
+                <div class="detail">
+                    <h3>Andrew J.</h3>
+                    <a class="bttn-link" href="#">
+                        <div class="bttn">
+                            <p class="si--bttn">Send Invite</p>
+                            <img class="si--img" src="/Assets/Group 549.svg" alt="arrow">
+                        </div>
+                    </a>
+                    <span>Top Rated UI/UX Designer</span>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <!--     <div class="swiper-button-prev"></div> -->
+        <!--     <div class="swiper-button-next"></div> -->
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 20,
+                stretch: 0,
+                depth: 350,
+                modifier: 1,
+                slideShadows: true
+            },
+            pagination: {
+                el: ".swiper-pagination"
+            }
+        });
+    </script>
+</body>
+
+</html>
+<!-- https://codepen.io/corvus-007/pen/gQEzYW -->
